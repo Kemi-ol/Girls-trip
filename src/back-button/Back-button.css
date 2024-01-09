@@ -1,0 +1,8 @@
+.back-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 61, 138);
+}
