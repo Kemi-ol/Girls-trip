@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the height to 100% of the viewport height for vertical centering */
+    height: 100vh;
     text-align: center;
     margin: 20px;
   }
@@ -31,21 +31,28 @@
   li {
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the buttons container */
+  .button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
   }
   
   button {
-    background-color: #3498db;
+    background-color: #f09226;
     color: #fff;
     font-size: 1.2em;
     padding: 10px 20px;
-    margin: 10px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
   }
   
   button:hover {
-    background-color: #2980b9;
+    background-color: #7ba211;
   }
   
   /* Responsive styles for smaller screens */
@@ -65,16 +72,23 @@
     button {
       font-size: 1em;
     }
+  
+    /* Adjust the button container for smaller screens */
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   
   body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image:url("../images/ibiza.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../images/ibiza.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
     color: #fff;
   }
+  
