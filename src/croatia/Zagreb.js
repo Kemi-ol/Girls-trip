@@ -20,15 +20,15 @@ const Zagreb = () => {
 
 <br/>
 
-<img className="zagreb-screenshot" src={zagrebImage}/>
+<img className="zagreb-screenshot" src={zagrebImage} alt='zagreb'/>
 
 <div>
 <button className= "zagreb-button">
-<a href="https://uk.hotels.com/go/croatia/things-to-do-zagreb" target ="_blank">Things to do in Zagreb</a>
+<a href="https://uk.hotels.com/go/croatia/things-to-do-zagreb" target ="_blank" rel="noreferrer">Things to do in Zagreb</a>
 </button>
 <br/>
 <button className= "zagreb-button">
-<a href="https://www.tripadvisor.co.uk/Hotel_Review-g294454-d3372267-Reviews-DoubleTree_by_Hilton_Zagreb-Zagreb_Central_Croatia.html" target ="_blank">Hotel Review</a>
+<a href="https://www.tripadvisor.co.uk/Hotel_Review-g294454-d3372267-Reviews-DoubleTree_by_Hilton_Zagreb-Zagreb_Central_Croatia.html" target ="_blank" rel="noreferrer">Hotel Review</a>
 </button>
 </div>
 
