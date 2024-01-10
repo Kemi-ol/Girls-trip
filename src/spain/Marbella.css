@@ -1,66 +1,50 @@
-.marbella{
-    text-align: center;
-    margin: 20px;
-    margin-top: 100px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url("../images/marbella-back.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
-  }
-  
-  h1 {
-    font-size: 2.9em;
-    color: #fff;
-  }
-  
-  h2 {
-    font-size: 1.2em;
-    color: #fff;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
-  
-
-
-  a {
-    color: #fff;
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-decoration: none;
-  }
-  
-.marbella-screenshot{
-    width: 100%;
-    display: block;
-    margin-top: 20px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.marbella {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  margin-top: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../images/marbella-back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
+.marbella-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-.marbella-button{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: rgb(89, 147, 248);
+.marbella-column {
+  flex: 1;
+  max-width: 400px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.marbella-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(89, 147, 248);
+}
+
+#marbella{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(89, 147, 248);
+}
+
+a{
+  text-decoration: none;
+}
+
+#marbella-images{
+  width: 800px;
 }
