@@ -1,6 +1,8 @@
+// Countdown.js
 
 import React, { useState, useEffect } from 'react';
-import { format, differenceInMilliseconds } from 'date-fns';
+
+import { differenceInMilliseconds } from 'date-fns';
 import './Countdown.css';
 
 const Countdown = () => {
@@ -30,23 +32,23 @@ const Countdown = () => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  },);
 
   return (
     <div className="countdown-container">
       <h2>Countdown to Girls Trip</h2>
       <div className="countdown-timer">
         <div className="countdown-item">
-          <span>{timeRemaining.days}</span>
+          <span>{timeRemaining.days} </span>
           <p>Days</p>
         </div>
         <div className="countdown-item">
-          <span>{timeRemaining.hours}</span>
+          <span>{timeRemaining.hours} </span>
           <p>Hours</p>
         </div>
         <div className="countdown-item">
           <span>{timeRemaining.minutes}</span>
-          <p>Minutes</p>
+          <p>Mins</p>
         </div>
         <div className="countdown-item">
           <span>{timeRemaining.seconds}</span>

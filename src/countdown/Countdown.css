@@ -3,6 +3,7 @@
 .countdown-container {
     text-align: center;
     margin: 20px;
+    padding: 40px, 20px;
   }
   
   .countdown-timer {
