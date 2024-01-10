@@ -49,5 +49,5 @@ h2 {
 }
 
 .zagreb-images{
-  width: 800px;
+  max-width: 100%;
 }
